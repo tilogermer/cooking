@@ -1,2 +1,16 @@
 .current {
   color: green; }
+
+/*sticky footer*/
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+footer {
+  background-color: darkblue;
+  min-height: 80px;
+  display: flex; }
