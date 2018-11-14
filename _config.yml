@@ -1,4 +1,5 @@
 baseurl: /cooking
+permalink: 'pretty'
 
 collections:
   recipes:
