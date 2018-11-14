@@ -1,0 +1,14 @@
+---
+layout: default
+title: Recipes
+---
+<h1>Latest Recipes</h1>
+
+<ul>
+  {% for recipe in site.recipes %}
+    <li>
+      <h2><a href="{{site.baseurl}}{{ recipe.url }}">{{ recipe.title }}</a></h2>
+      <p>{{ recipe.meta }}</p>
+    </li>
+  {% endfor %}
+</ul>
